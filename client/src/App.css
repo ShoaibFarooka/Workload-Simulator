@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+/* .app {
+  height: 100vh;
+  background-color: #051650;
+  width: 100%;
+} */
+@font-face {
+  font-family: "Benzin-Medium";
+  src: url(./fonts/Benzin-Font/benzin-medium.ttf);
+}
+@font-face {
+  font-family: "Benzin-Normal";
+  src: url(./fonts/Benzin-Font/benzin-regular.ttf);
+}

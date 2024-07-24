@@ -1,0 +1,18 @@
+.circular-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-progress-circle-path {
+  stroke: #0036ee; /* Darker shade of blue for the circle */
+}
+
+.ant-progress-outer {
+  border: 12px solid #c2e3ff; /* Lighter shade of blue for the progress bar */
+}
+
+.ant-progress-text {
+  font-weight: bold;
+  color: white; /* Change the color to white */
+}

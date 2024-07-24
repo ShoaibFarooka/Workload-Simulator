@@ -1,0 +1,90 @@
+.area-chart-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(66, 73, 97, 0.53) !important;
+  border-radius: 30px;
+  margin-left: 30px;
+  justify-content: center;
+}
+
+.firstHeading {
+  color: white;
+  font-size: 20px;
+  font-family: "Benzin-Medium";
+  margin-left: 50px;
+}
+.main-chart-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #051650;
+  height: 100vh;
+  width: 100vw;
+}
+
+.chart {
+  /* padding: 10px 5px; */
+  /* background-color: rgba(66, 73, 97, 0.53) !important; */
+  background-color: aliceblue;
+}
+
+.responsive-container {
+  background-color: aliceblue;
+}
+
+.insights-container {
+  background-color: rgba(66, 73, 97, 0.53) !important;
+  border-radius: 30px;
+}
+.secondHeading {
+  color: white;
+  font-size: 20px;
+  font-family: "Benzin-Medium";
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.h2First {
+  margin-top: 10px;
+  color: #fff;
+  /*font-family: "Benzin-Semibold";*/
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.parent-insights {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.inputt {
+  margin-top: 3rem;
+}
+.inputt select {
+  height: 2rem;
+  margin: 0.5rem 2rem;
+  font-size: 1rem;
+  background: none;
+  border: none;
+}
+.inputt option {
+  font-family: "Benzin-Medium";
+  background-color: #051650;
+}
+.details-btn {
+  background: transparent;
+  display: flex;
+  border: none;
+  justify-content: start;
+  margin: 0.5rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}

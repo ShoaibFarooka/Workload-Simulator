@@ -1,0 +1,97 @@
+.area-chart-container {
+    width: 60vw;
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(66, 73, 97, 0.53) !important;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.chart {
+    width: 100%;
+    /* height: 50vh; */
+    margin-top: 40px;
+}
+.firstHeading {
+    color: white;
+    font-size: 20px;
+    font-family: "Benzin-Medium";
+    margin-left: 50px;
+}
+.main-chart-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 100vh;
+}
+.insights-container {
+    background-color: rgba(66, 73, 97, 0.53) !important;
+    border-radius: 30px;
+    width: 30vw;
+    /* height: 70vh; */
+    margin-top: 60px;
+}
+.secondHeading {
+    color: white;
+    font-size: 20px;
+    font-family: "Benzin-Medium";
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h2First {
+    margin-top: 10px;
+    color: #fff;
+    /*font-family: "Benzin-Semibold";*/
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.parent-insights {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.inputt {
+    margin-top: 3rem;
+}
+.inputt select {
+    height: 2rem;
+    margin: 0.5rem 2rem;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.inputt p {
+    height: 2rem;
+    margin: 0.5rem 2rem;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.inputt option {
+    font-family: "Benzin-Medium";
+}
+.details-btn {
+    background: transparent;
+    display: flex;
+    border: none;
+    justify-content: start;
+    margin: 0.5rem 2rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
